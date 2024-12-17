@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application de Quiz</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="accueille.html">Accueil</a></li>
+                <li><a href="parcous.html">Parcours</a></li>
+                <li><a href="compétence.html">Compétences</a></li>
+                <li><a href="experience.html">Expérience</a></li>
+                <li><a href="manifestation.html">Manifestations</a></li>
+                <li><a href="projet.html">Projets</a></li>
+                <li><a href="passion.html">Passions</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="iit.html">IIT</a></li>
+            </ul>
+        </nav>
+
+        <div class="quiz-container">
+            <div class="start_btn"><button>Démarrer le Quiz</button></div>
+            <div class="quiz_box">
+                <header>
+                    <div class="title">Application de Quiz</div>
+                </header>
+                <section>
+                    <div class="que_text"></div>
+                    <div class="option_list"></div>
+                </section>
+                <footer>
+                    <div class="total_que"></div>
+                    <button class="next_btn">Question suivante</button>
+                </footer>
+            </div>
+
+            <div class="result_box">
+                <div class="icon">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="complete_text">Vous avez terminé le Quiz !</div>
+                <div class="score_text"></div>
+                <div class="buttons">
+                    <button class="restart">Rejouer le Quiz</button>
+                    <button class="quit">Quitter le Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <script src="JS/cv.js"></script>
+</body>
+
+</html>
